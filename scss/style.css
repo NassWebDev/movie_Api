@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  height: 100%;
+}
+body .container {
+  background-color: rgb(5, 11, 37);
+}
+body .container .nav {
+  height: 70px;
+  background-color: rgb(3, 7, 25);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+}
+body .container .nav .trending {
+  font-size: 18px;
+  color: #fff;
+  font-style: italic;
+}
+body .container .movies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px;
+}
+body .container .movies .amovie {
+  width: 250px;
+  background-color: rgb(3, 7, 25);
+  margin: 8px;
+}
+body .container .movies .amovie img {
+  max-width: 100%;
+}
+body .container .movies .amovie .infosmovies {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 15px;
+}
+body .container .movies .amovie .infosmovies .namemovie {
+  font-size: 14px;
+  color: #fff;
+}
+body .container .movies .amovie .infosmovies .mark {
+  background-color: rgb(5, 11, 37);
+  border: 1px solid transparent;
+  border-radius: 3px;
+  padding: 5px 10px;
+  color: #fff;
+  font-size: 13px;
+}/*# sourceMappingURL=style.css.map */
